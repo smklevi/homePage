@@ -1,15 +1,22 @@
 * {
-    border: 0;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #e7d7ad;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #504945;
+    background-color: #2C2F33;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -22,8 +29,8 @@ form {
     width: 33%;
     height: 44px;
     margin: auto;
-    background-color: #665c54;
-    border-radius: 3px;
+    background-color: #23272A;
+    border-radius: 10px;
 }
 
 #query {
@@ -45,14 +52,14 @@ img {
 
 #banner {
     display: block;
-    margin: auto;
     height: 250px;
     padding: 15px;
 }
 
 nav {
-    margin: 30px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 h3 {
@@ -65,6 +72,7 @@ a {
 
 a:hover {
     color: rgba(87, 248, 87, 0.4);
+    transition: all .5s;
 }
 
 li {
@@ -75,12 +83,16 @@ li {
 }
 
 ul {
-    margin: 10px;
-    text-align: center;
+    display: flex;
     list-style-type: none;
 }
 
-.icon {
-    max-width: 55px;
-    max-height: 55px;
+main .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    padding-right: 10px;
 }

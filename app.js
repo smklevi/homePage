@@ -9,5 +9,4 @@ if (time < 10) {
     greet = "Good evening!"
 } 
 
-
 document.getElementById("greeting").innerHTML = greet;    
